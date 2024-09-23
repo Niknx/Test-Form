@@ -1,0 +1,21 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.btn-prev-slide {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  background: #001e80;
+
+  cursor: pointer;
+}

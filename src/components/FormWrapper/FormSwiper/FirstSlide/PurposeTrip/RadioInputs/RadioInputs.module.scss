@@ -1,0 +1,43 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.radio-inputs__wrapper {
+  display: flex;
+  @include adaptiv-column-gap(30, 15);
+}
+
+.radio-inputs__input {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+
+  cursor: pointer;
+}
+
+.radio-inputs__input-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 12px;
+  height: 12px;
+
+  background-color: #afafaf;
+  border-radius: 50%;
+
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.radio-inputs__input-icon-active {
+  background-color: #00c55c;
+}
+
+.radio-inputs__input-text {
+  color: #444;
+  font-family: var(--font-Inter);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

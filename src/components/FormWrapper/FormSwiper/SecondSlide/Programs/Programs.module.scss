@@ -1,0 +1,9 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.programs__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}

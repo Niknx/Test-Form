@@ -1,0 +1,11 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.phone-number__input {
+  padding: 6px 7px;
+
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #b6b3c4;
+}

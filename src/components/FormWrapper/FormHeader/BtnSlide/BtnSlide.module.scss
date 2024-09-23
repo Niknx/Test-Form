@@ -1,0 +1,24 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.btn-slide__wrapper {
+  display: flex;
+  column-gap: 6px;
+  width: 100%;
+}
+
+.btn-slide__btn {
+  width: 100%;
+  height: 7px;
+
+  border-radius: 20px;
+  background: #ecebf0;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.btn-slide__btn-active {
+  background: #00c55c;
+}

@@ -1,0 +1,18 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.form-wrapper__form {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 420px;
+  width: 100%;
+
+  border-radius: 20px;
+  background: #fff;
+
+  overflow: hidden;
+}

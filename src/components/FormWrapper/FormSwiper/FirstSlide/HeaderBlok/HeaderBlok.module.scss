@@ -1,0 +1,24 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.header-block__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.header-block__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-block__title {
+  color: #444;
+  font-family: var(--font-Inter);
+  @include adaptiv-font(12, 9);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

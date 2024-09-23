@@ -1,0 +1,109 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.travel-country-input__row {
+  position: relative;
+
+  width: 100%;
+}
+
+.dd_show {
+  .travel-country-input__row-item-dd {
+    opacity: 1;
+    visibility: visible;
+  }
+  .travel-country-input__row-item-icon {
+    transform: rotate(180deg);
+  }
+}
+
+.travel-country-input__row-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+  height: 32px;
+
+  padding-left: 12px;
+
+  border-radius: 10px;
+  background: #f1eff5;
+
+  cursor: pointer;
+}
+
+.travel-country-input__row-item-text {
+  color: #b6b3c4;
+  font-family: var(--font-Inter);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.travel-country-input__row-item-icon {
+  padding: 0 12px;
+
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.travel-country-input__row-item-dd {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+
+  width: 94%;
+  height: 200px;
+
+  overflow-y: auto;
+
+  background-color: #f1eff5;
+  border-radius: 10px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all 0.2s ease-in-out 0s;
+
+  z-index: 2;
+
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    margin: 5px 0;
+
+    background: #fafafa;
+    border-radius: 40px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    width: 3px;
+
+    background-color: #cacaca;
+    border-radius: 40px;
+  }
+}
+
+//
+
+.travel-country-input__row-item-dd-row {
+  padding: 10px;
+
+  color: #b6b3c4;
+  font-family: var(--font-Inter);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  transition: all 0.2s ease-in-out 0s;
+  cursor: pointer;
+
+  &:hover {
+    color: #000;
+  }
+}

@@ -1,0 +1,38 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.radio-input__wrapper {
+  display: flex;
+  column-gap: 6px;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.radio-input__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 12px;
+  height: 12px;
+
+  background-color: #afafaf;
+  border-radius: 50%;
+
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.radio-input__icon-selected {
+  background-color: #00c55c;
+}
+
+.radio-input__text {
+  color: #444;
+  font-family: var(--font-Inter);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -1,0 +1,24 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.first-slide__wrapper {
+  box-sizing: border-box;
+  
+  display: flex;
+  flex-direction: column;
+  @include adaptiv-row-gap(15, 10);
+
+  width: 100%;
+
+  @include adaptivPadding(0, 40, 0, 40, 0, 20, 0, 20);
+}
+
+.first-slide__title {
+  color: #001e80;
+  font-family: var(--font-Inter);
+  @include adaptiv-font(20, 16);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

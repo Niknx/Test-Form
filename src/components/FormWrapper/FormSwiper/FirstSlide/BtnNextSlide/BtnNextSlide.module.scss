@@ -1,0 +1,35 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.btn-next-slide__wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn-next-slide__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 120px;
+  width: 100%;
+  height: 30px;
+
+  color: #fff;
+  font-family: var(--font-Inter);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  border-radius: 10px;
+  background: #00c55c;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out 0.05s;
+
+  &:hover {
+    background-color: #009646;
+  }
+}

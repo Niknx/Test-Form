@@ -1,0 +1,89 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.programs-card__wrapper {
+  display: flex;
+  column-gap: 10px;
+
+  padding: 10px;
+
+  border-radius: 10px;
+  border: 1px solid #cacaca;
+  background: #f1eff5;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.programs-card__wrapper-active {
+  border: 1px solid #f0f0f0;
+  background: #fff;
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.1);
+
+  .programs-card__icon {
+    background-color: #00c55c;
+  }
+  .programs-card__title {
+    color: #00c55c;
+  }
+  .programs-card__subtitle {
+    color: #00c55c;
+  }
+}
+
+.programs-card__icon-container {
+}
+
+.programs-card__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 12px;
+  height: 12px;
+
+  margin-top: 2px;
+
+  border-radius: 50%;
+  background-color: #afafaf;
+
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.programs-card__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.programs-card__title {
+  color: #001e80;
+  font-family: var(--font-Inter);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.programs-card__subtitle {
+  color: #001e80;
+  font-family: var(--font-Inter);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.programs-card__description {
+  color: #444;
+  font-family: var(--font-Inter);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

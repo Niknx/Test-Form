@@ -1,0 +1,14 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.home-page__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background: #eef2fb;
+}

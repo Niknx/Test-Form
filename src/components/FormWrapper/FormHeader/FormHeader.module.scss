@@ -1,0 +1,13 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.form-header__wrapper {
+  display: flex;
+  align-items: center;
+
+  height: 30px;
+
+  @include adaptivPadding(10, 40, 0, 40, 10, 20, 0, 20);
+  margin-right: 40px;
+}

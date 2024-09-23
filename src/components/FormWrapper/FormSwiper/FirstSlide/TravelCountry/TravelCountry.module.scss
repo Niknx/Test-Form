@@ -1,0 +1,24 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.travel-country__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-country__header {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.travel-country__title {
+  color: #444;
+  font-family: var(--font-Inter);
+  @include adaptiv-font(12, 9);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

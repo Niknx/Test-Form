@@ -1,0 +1,15 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.phone-number__wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.phone-number__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 7px;
+}

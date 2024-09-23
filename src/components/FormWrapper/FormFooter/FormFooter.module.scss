@@ -1,0 +1,41 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.form-footer__container {
+  display: flex;
+  column-gap: 4px;
+
+  @include adaptivPadding(12, 40, 30, 40, 10, 20, 15, 20);
+}
+
+.form-footer__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 10px;
+  height: 10px;
+
+  margin-top: 2px;
+
+  color: #fff;
+  font-family: var(--font-Inter);
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  border-radius: 50%;
+  background-color: #00c55c;
+}
+
+.form-footer__text {
+  color: #444;
+  font-family: var(--font-Inter);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

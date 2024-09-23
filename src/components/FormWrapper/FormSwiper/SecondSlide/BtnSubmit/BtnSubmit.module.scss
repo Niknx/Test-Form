@@ -1,0 +1,34 @@
+@import "@/assets/mixins/mixin.scss";
+
+// --font-Inter
+
+.btn-submit__wrapper {
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 7px 15px;
+
+  border-radius: 8px;
+  background: #00c55c;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out 0.05s;
+
+  &:hover {
+    background-color: #009646;
+  }
+}
+
+.btn-submit__text {
+  color: #fff;
+  font-family: var(--font-Inter);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
